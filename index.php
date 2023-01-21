@@ -1,39 +1,35 @@
 <head>
 <title>Leaders & Deputies | Jantugei Inc</title>
 <link rel="stylesheet" type="text/css" href="https://jantugei.ru/style/style.css">
-<link rel="stylesheet" type="text/css" href="https://jantugei.ru/style/index.css">
-</head>
-<head>
-<link rel="stylesheet" type="text/css" href="https://jantugei.ru/style/style.css">
-<link rel="stylesheet" type="text/css" href="https://jantugei.ru/style/index.css">
+<link rel="stylesheet" href="https://jantugei.ru/font-awesome/css/font-awesome.min.css">
 </head>
 
 <ul>
-    <li><a onclick="window.location.href = 'index.php';"><i class='fas fa-home'></i> Главная страница</a></li>
+    <li><a onclick="window.location.href = 'index.php';"><i class='fa fa-home'></i> Главная страница</a></li>
     <li class="dropdown" style="width:min-content;">
-      <a style="font-weight: normal;" href="javascript:void(0)" class="dropbtn"><i class="fas fa-list"></i> Пользователи</a>
+      <a style="font-weight: normal;" href="javascript:void(0)" class="dropbtn"><i class="fa fa-list"></i> Пользователи</a>
       <div class="dropdown-content" style="width:inherit;">
-        <a class="first_child" onclick="window.location.href = 'index.php';"><i class="fa-solid fa-people-arrows"></i> Лидеры | Заместители</a>
-        <a onclick="window.location.href = 'admins.php';"><i class="fas fa-head-side-cough"></i> Администрация</a>
+        <a class="first_child" onclick="window.location.href = 'index.php';"><i class="fa fa-address-card"></i> Лидеры | Заместители</a>
+        <a onclick="window.location.href = 'admins.php';"><i class="fa fa-star-o"></i> Администрация</a>
       </div>
     </li>
     <li class="dropdown" style="width:min-content;">
-      <a style="font-weight: normal;" href="javascript:void(0)" class="dropbtn"><i class='fas fa-ban'></i> Черный список</a>
+      <a style="font-weight: normal;" href="javascript:void(0)" class="dropbtn"><i class='fa fa-ban'></i> Черный список</a>
       <div class="dropdown-content" style="width:inherit;">
-        <a class="first_child" onclick="window.location.href = 'show_blacklist.php';"><i class="fas fa-table"></i> Посмотреть список</a>
-        <a onclick="window.location.href = 'blacklist.php';"><i class="fas fa-pen"></i> Внести в список</a>
+        <a class="first_child" onclick="window.location.href = 'show_blacklist.php';"><i class="fa fa-table"></i> Посмотреть список</a>
+        <a onclick="window.location.href = 'blacklist.php';"><i class="fa fa-pencil-square-o"></i> Внести в список</a>
       </div>
     </li>
     <li class="dropdown" style="width:min-content;">
-      <a style="font-weight: normal;" href="javascript:void(0)" class="dropbtn"><i class='fas fa-info'></i> F.A.Q Форм</a>
+      <a style="font-weight: normal;" href="javascript:void(0)" class="dropbtn"><i class='fa fa-info'></i> F.A.Q Форм</a>
       <div class="dropdown-content" style="width:inherit;">
-        <a class="first_child" onclick="window.location.href = 'form_errors.php?form=ld';"><i class="fas fa-file-signature"></i> Лидер | Заместитель</a>
-                  <a onclick="window.location.href = 'form_errors.php?form=a';"><i class="fas fa-file-signature"></i> Администратор</a>
+        <a class="first_child" onclick="window.location.href = 'form_errors.php';"><i class="fa fa-cogs"></i> Лидер | Заместитель</a>
+                  <a onclick="window.location.href = 'form_errors_a.php';"><i class="fa fa-cogs"></i> Администратор</a>
               </div>
     </li>
     <li></li>
-    <li style="float:right;border-right:none"><a class="last_header" onclick="window.location.href = 'logout.php';"><i class='fas fa-sign-out-alt'></i> Выйти</a></li>
-    <li style="float:right"><a class="last_header" onclick="window.location.href = 'profile.php';"><i class="fas fa-id-badge"></i>Aleks_Kutuzov</a></li>
+    <li style="float:right;border-right:none"><a class="last_header" onclick="window.location.href = 'auth.php';"><i class='fa fa-sign-out'></i> Выйти</a></li>
+    <li style="float:right"><a class="last_header" onclick="window.location.href = 'profile.php';"><i class="fa fa-user-o"></i> Aleks_Kutuzov</a></li>
   </ul><section>
 <h1>Список лидеров и заместителей сервера Wednesday</h1>
   <div class="tbl-header">

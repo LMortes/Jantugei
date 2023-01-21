@@ -22,15 +22,15 @@
     <div class="auth_label">
       <img style="height: 80px; width: 340px;" src="images/sign_logo.png" alt="Jantugei Inc">
     </div>
-    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?163"></script>
-    <script type="text/javascript">
-      VK.init({apiId: 7204370});
-    </script>
+    <script src="https://vk.com/js/api/openapi.js?169" type="text/javascript"></script>
+      <script type="text/javascript">VK.init({apiId: 51531335});</script>
+
 
     <!-- VK Widget -->
     <div style="padding-top: 20px; padding-bottom: 10px;" id="vk_auth"></div>
     <script type="text/javascript">
-      VK.Widgets.Auth("vk_auth", {"authUrl":"/auth2.php", "width":"300"});
+      //VK.Widgets.Auth("vk_auth", {"authUrl":"/auth2.php", "width":"300"});
+      VK.Widgets.Auth("vk_auth", {authUrl: "/index.php", "width":"300"});
     </script>
   </div>
 </center>
